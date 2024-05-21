@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #F8DFDF;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 150px;
+    width: 1107px;
+    height: 635px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+    padding-left: 60px;
+}
+
+.container h1 {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #FF4F4F;
+    padding-top: 30px;
+    font-size: 32px;
+}
+
+.container label {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px grey;
+    font-style: normal;
+    color: #FF4F4F;
+    font-size: 20px;
+}
+
+button {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 222px;
+    height: 61px;
+    margin-top: 60px;
+    background-color: #FF4F4F;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
