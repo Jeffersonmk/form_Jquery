@@ -13,13 +13,13 @@ body {
 
 .container {
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     margin-top: 150px;
-    width: 1107px;
-    height: 635px;
+    width: 1160px;
+    height: 700px;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px black;
-    padding-left: 60px;
+    padding-left: 110px
 }
 
 .container h1 {
@@ -48,10 +48,59 @@ button {
     font-size: 20px;
     width: 222px;
     height: 61px;
-    margin-top: 60px;
+    margin-top: 50px;
     background-color: #FF4F4F;
     color: white;
     border-radius: 20px;
     text-transform: uppercase;
+    margin-left: auto;
 }
 
+.form-case {
+    display: flex;
+    flex-direction: column; /* Define a direção do fluxo como coluna */
+    margin-bottom: 30px;
+    margin-top: -10px; 
+    margin-right: 40px;
+}
+
+.form-case:last-child {
+    margin-right: auto; /* Move o último campo (CPF) para a direita */
+}
+
+.form-row {
+    display: flex;
+    gap: 100px; /* Spacing between pairs */
+}
+
+#nome, #email, #cpf, #telefone, #endereco, #cep {
+    background-color: #D9D9D9;
+    height: 52px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#email, #cpf, #telefone, #endereco, #cep {
+    width: 320px;
+}
+
+#nome {
+    width: 900px;
+    padding-bottom: 2px;
+}
+
+.form-case.form-case-right {
+    margin-left: auto; /* Move os campos para a direita */
+    margin-right: 120px; /* Reset a margem direita */
+}
+
+.form-case.form-case-left {
+    margin-left: 0px; /* Move os campos para a direita */
+}
+
+input[type=text], input[type=email] {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: bold;
+    font-size: 20px;
+}
