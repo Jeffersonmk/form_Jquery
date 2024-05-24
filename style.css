@@ -42,20 +42,6 @@ body {
     font-size: 20px;
 }
 
-button {
-    font-family: "Inknut Antiqua", serif;
-    font-weight: bold;
-    font-size: 20px;
-    width: 222px;
-    height: 61px;
-    margin-top: 50px;
-    background-color: #FF4F4F;
-    color: white;
-    border-radius: 20px;
-    text-transform: uppercase;
-    margin-left: auto;
-}
-
 .form-case {
     display: flex;
     flex-direction: column; /* Define a direção do fluxo como coluna */
@@ -101,6 +87,24 @@ button {
 
 input[type=text], input[type=email] {
     font-family: "Inknut Antiqua", serif;
+    font-size: 20px;
+}
+
+button {
+    font-family: "Inknut Antiqua", serif;
     font-weight: bold;
     font-size: 20px;
+    width: 222px;
+    height: 61px;
+    margin-top: 50px;
+    background-color: #FF4F4F;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+button:hover {
+    background-color: #ff2424;
+    cursor: pointer;
 }
